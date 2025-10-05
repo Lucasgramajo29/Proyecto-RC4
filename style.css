@@ -1,24 +1,11 @@
- .hero-section {
-    position: relative;
-    height: 90vh; /* casi pantalla completa */
-    background-image: url("/assets/badboy.jpg"); /* reemplaza con tu imagen */
-    background-size: cover;   /* se ajusta al contenedor */
-    background-position: center; /* centrada */
-    background-repeat: no-repeat; /* evita repetición */
-  }
+#container-navbar {
+    padding: 10px;
+}
 
-  /* Overlay oscuro */
-  .hero-section::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.6); 
-  }
+.navbar-brand {
+    font-size: 40px;
+    font-weight: bold;
+}
 
-  .hero-section .container {
-    position: relative;
-    z-index: 2;
-  }
+#search {
+}
