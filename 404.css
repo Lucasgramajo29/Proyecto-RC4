@@ -1,0 +1,36 @@
+ * {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: black;
+      color: #fff;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-family: sans-serif;
+    }
+
+    h1 {
+      font-size: 100px;
+      font-weight: 600;
+      color: #ff4757;
+
+    }
+
+    h2 {
+      font-size: 30px;
+      margin-bottom: 30px;
+    }
+
+
+    a {
+      text-decoration: none;
+      background-color: #ff4757;
+      color: white;
+      padding: 10px 25px;
+      border-radius: 25px;
+    }
